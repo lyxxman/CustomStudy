@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+    <include
+        layout="@layout/layout_common_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_50"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_icons"
+                android:layout_width="@dimen/height_80"
+                android:layout_height="@dimen/height_80"
+                android:background="@mipmap/ic_launcher"
+                android:layout_centerInParent="true"
+                android:visibility="visible"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/img_icons_qiu"
+                android:layout_width="@dimen/height_50"
+                android:layout_height="@dimen/height_50"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/height_20"
+                android:layout_centerVertical="true"
+                android:background="@drawable/baijiu_remen_danping"
+                android:visibility="visible"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:id="@+id/img_icons_2"
+                android:layout_width="@dimen/height_80"
+                android:layout_height="@dimen/height_80"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/height_10"
+                android:visibility="gone"
+                android:background="@mipmap/ic_launcher"
+                android:layout_below="@+id/img_icons"
+                />
+        </RelativeLayout>
+</LinearLayout>
