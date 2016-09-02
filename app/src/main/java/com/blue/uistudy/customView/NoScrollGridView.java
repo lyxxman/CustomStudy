@@ -1,6 +1,7 @@
 package com.blue.uistudy.customView;
 
 import android.content.Context;
+import android.media.SoundPool;
 import android.util.AttributeSet;
 import android.widget.GridView;
 
@@ -28,4 +29,6 @@ public class NoScrollGridView extends GridView {
                 MeasureSpec.AT_MOST);
         super.onMeasure(widthMeasureSpec, expandSpec);
     }
+
+
 }

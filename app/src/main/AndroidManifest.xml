@@ -46,6 +46,8 @@
         <activity android:name=".activity.HorizontalScrollViewActiviy"></activity>
         <activity android:name=".activity.Animation.AnimationSetsActivity"></activity>
         <activity android:name=".activity.Animation.customAnimation.CustomAnimationActivity"></activity>
+        <activity android:name=".activity.svgAnimation.DragButtonActivity"></activity>
+        <activity android:name=".activity.CustomCirleProgressActivity"></activity>
         <receiver android:name=".receiver.MessageReceiver"
             android:exported="true" >
             <intent-filter>

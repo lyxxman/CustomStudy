@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.blue.uistudy.activity.Animation.AnimationSetsActivity;
 import com.blue.uistudy.activity.Animation.customAnimation.CustomAnimationActivity;
 import com.blue.uistudy.R;
+import com.blue.uistudy.activity.svgAnimation.DragButtonActivity;
 import com.blue.uistudy.adapter.CustomViewRecyAdapter;
 import com.blue.uistudy.entity.UiType;
 import com.tencent.android.tpush.XGPushManager;
@@ -73,11 +74,17 @@ public class MainActivity extends Activity implements CustomViewRecyAdapter.MyIt
         UiType uiType3 = new UiType("属性动画效果");
         UiType uiType4 = new UiType("自定义动画");
         UiType uiType5 = new UiType("自定义加载进度条");
+        UiType uiType6 = new UiType("SVG动画实践");
+        UiType uiType7 = new UiType("拖拽悬浮按钮");
+        UiType uiType8 = new UiType("圆形进度条");
         mDataUiTypes.add(uiType1);
         mDataUiTypes.add(uiType2);
         mDataUiTypes.add(uiType3);
         mDataUiTypes.add(uiType4);
         mDataUiTypes.add(uiType5);
+        mDataUiTypes.add(uiType6);
+        mDataUiTypes.add(uiType7);
+        mDataUiTypes.add(uiType8);
     }
 
     @Override
@@ -94,6 +101,12 @@ public class MainActivity extends Activity implements CustomViewRecyAdapter.MyIt
                 break;
             case 3:
                 startActivity(new Intent(this, CustomAnimationActivity.class));
+                break;
+            case 6:
+                startActivity(new Intent(this, DragButtonActivity.class));
+                break;
+            case 7:
+                startActivity(new Intent(this,CustomCirleProgressActivity.class));
                 break;
         }
     }
