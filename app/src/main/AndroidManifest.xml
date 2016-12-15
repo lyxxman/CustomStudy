@@ -48,6 +48,8 @@
         <activity android:name=".activity.Animation.customAnimation.CustomAnimationActivity"></activity>
         <activity android:name=".activity.svgAnimation.DragButtonActivity"></activity>
         <activity android:name=".activity.CustomCirleProgressActivity"></activity>
+        <activity android:name=".activity.GridAutoLoadActivity"></activity>
+        <activity android:name=".activity.RecyLayoutActivity"></activity>
         <receiver android:name=".receiver.MessageReceiver"
             android:exported="true" >
             <intent-filter>

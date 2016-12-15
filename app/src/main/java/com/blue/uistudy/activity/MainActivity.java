@@ -4,8 +4,6 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
@@ -77,6 +75,8 @@ public class MainActivity extends Activity implements CustomViewRecyAdapter.MyIt
         UiType uiType6 = new UiType("SVG动画实践");
         UiType uiType7 = new UiType("拖拽悬浮按钮");
         UiType uiType8 = new UiType("圆形进度条");
+        UiType uiType9 = new UiType("网格布局");
+        UiType uiType10 = new UiType("RecyLayoutView");
         mDataUiTypes.add(uiType1);
         mDataUiTypes.add(uiType2);
         mDataUiTypes.add(uiType3);
@@ -85,6 +85,8 @@ public class MainActivity extends Activity implements CustomViewRecyAdapter.MyIt
         mDataUiTypes.add(uiType6);
         mDataUiTypes.add(uiType7);
         mDataUiTypes.add(uiType8);
+        mDataUiTypes.add(uiType9);
+        mDataUiTypes.add(uiType10);
     }
 
     @Override
@@ -107,6 +109,12 @@ public class MainActivity extends Activity implements CustomViewRecyAdapter.MyIt
                 break;
             case 7:
                 startActivity(new Intent(this,CustomCirleProgressActivity.class));
+                break;
+            case 8:
+                startActivity(new Intent(this,GridAutoLoadActivity.class));
+                break;
+            case 9:
+                startActivity(new Intent(this,RecyLayoutActivity.class));
                 break;
         }
     }

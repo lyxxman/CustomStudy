@@ -108,4 +108,7 @@
     <dimen name="height_230">230.0dip</dimen>
     <dimen name="height_250">250.0dip</dimen>
     <dimen name="height_300">300.0dip</dimen>
+
+    <dimen name="divider_size">8dp</dimen>
+    <dimen name="textandiconmargin">10dp</dimen>
 </resources>

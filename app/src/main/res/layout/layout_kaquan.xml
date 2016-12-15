@@ -21,7 +21,6 @@
         android:layout_width="match_parent"
         app:CircleRadius="@dimen/height_4"
         app:CircleGap="@dimen/height_4"
-
         >
 
         <TextView

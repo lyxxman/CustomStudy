@@ -67,7 +67,7 @@ public class DragButtonActivity extends Activity {
                         mImgBtnDrag.setLayoutParams(params);
                         return  true;
                 }
-                return false;// 返回true，不执行click事件
+                return true;// 返回true，不执行click事件
             }
 
         });

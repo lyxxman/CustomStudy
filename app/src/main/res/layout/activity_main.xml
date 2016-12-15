@@ -7,6 +7,8 @@
         layout="@layout/layout_common_header"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_50"/>
+
+
     <android.support.v7.widget.RecyclerView
         android:layout_marginRight="@dimen/height_10"
         android:layout_marginBottom="@dimen/height_8"
